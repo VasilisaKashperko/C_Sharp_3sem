@@ -1,0 +1,13 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\bin\Debug\netcoreapp3.1\Tuple.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Tuple\obj\Debug\netcoreapp3.1\Tuple.genruntimeconfig.cache

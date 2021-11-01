@@ -1,0 +1,13 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\bin\Debug\netcoreapp3.1\LocalFunction.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\LocalFunction\obj\Debug\netcoreapp3.1\LocalFunction.genruntimeconfig.cache

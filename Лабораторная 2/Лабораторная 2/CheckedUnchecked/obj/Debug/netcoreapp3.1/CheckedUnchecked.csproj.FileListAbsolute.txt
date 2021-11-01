@@ -1,0 +1,12 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\bin\Debug\netcoreapp3.1\CheckedUnchecked.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\CheckedUnchecked\obj\Debug\netcoreapp3.1\CheckedUnchecked.genruntimeconfig.cache

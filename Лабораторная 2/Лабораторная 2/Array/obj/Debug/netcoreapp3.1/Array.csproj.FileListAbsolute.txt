@@ -1,0 +1,13 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\bin\Debug\netcoreapp3.1\Array.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 2\Лабораторная 2\Array\obj\Debug\netcoreapp3.1\Array.genruntimeconfig.cache

@@ -1,16 +1,19 @@
-﻿using System;
+﻿using System; //я директиву using, 
+//которая сообщает компилятору, где он должен искать классы (типы), не
+//определенные в данном пространстве имен.
 
-/* Литерал — запись в исходном коде компьютерной программы,
-представляющая собой фиксированное значение.
-Литералами также называют представление значения некоторого типа данных. */
+/*В объектно-ориентированном программировании ход 
+выполнения программы определяется объектами. Объекты это экземпляры 
+класса. Класс это абстрактный тип данных, определяемый пользователем ( 
+программистом). */
 
 namespace Лабораторная_2
 {
-    class Program
+    class Types
     {
         static void Main(string[] args)
         {
-            ////////// ЗАДАНИЕ 1 //////////
+        ////////// ЗАДАНИЕ 1 - инициализация переменных //////////
 
             Console.WriteLine($"size of int = {sizeof(int)}");
             Console.WriteLine($"size of bool = {sizeof(bool)}");
@@ -90,7 +93,7 @@ namespace Лабораторная_2
             Console.WriteLine(dyn+"\n");
             //obj = obj + 3;
 
-            ////////// ЗАДАНИЕ 2 //////////
+        ////////// ЗАДАНИЕ 2 - явное и неявное приведения //////////
 
             byte a = 4;
             int b = a + 70;
@@ -125,7 +128,7 @@ namespace Лабораторная_2
                               $"e = {e}, f = {f}, g = {g}, h = {h}, " +
                               $"i = {i}, j = {j},\nk = {k}, l = {l}, " +
                               $"m = {m}, o = {o}, p = {p}, q = {q}, " +
-                              $"ar = {r},\ns = {s}, t = {t}\n");
+                              $"ar = {ar}, r = {r},\ns = {s}, t = {t}\n");
 
             Console.WriteLine(valueVar + " " + valueVar.GetType() + "\n");
             Console.WriteLine(valueVar + " " + Convert.ToSingle(valueVar).GetType());
@@ -135,6 +138,57 @@ namespace Лабораторная_2
             string dateString = "05/01/1996";
             Convert.ToDateTime(dateString);
 
+            Console.WriteLine($"n = {n} и dateString = {dateString} и при конвертации " + Convert.ToDateTime(dateString));
+
+        ////////// ЗАДАНИЕ 3 - упаковка/распаковка значимых типов //////////
+             
+            int price = 39;
+            Object obj1 = price;
+            int price2 = (int)obj1;
+
+            double eco = 2.93;
+            Object obj2 = eco;
+            // eco = (Int32)eco; пример распаковки в int - округление в меньшую сторону
+            Console.WriteLine(" ");
+            Console.WriteLine(eco);
+            Console.WriteLine(eco.GetType());
+
+            ////////// Задание 4 - неявно типизированная переменная ///////////
+
+            var notADataType = new float[10];
+            // notADataType = 4; // ошибка, т.к. сторгая типизация
+            Console.WriteLine(notADataType.GetType());
+
+            var notADataType2 = 32;
+            var notADataType3 = 2;
+
+            Console.WriteLine(notADataType2+notADataType3);
+
+            //var notADataType4 = null; // null - такое значение принимает ссылочный тип или nullable, но какая переменная?)) не понятно!
+            var notADataType5 = "String";
+            notADataType5 = null;
+            // или var notADataType = (string)null;
+            Console.WriteLine(notADataType5);
+
+        ////////// Задание 5 - пример работы с nullable ///////////
+
+            int? n1 = null;
+            bool? n2 = null;
+            Nullable<bool> n3 = true;
+            n3 = null;
+
+            Console.WriteLine(n1 + " - nullable int;" + n2 + " - nullable bool;" + n3 + " - nullable bool после инициализации;");
+
+            int x1 = 4;
+            int? x2 = x1;
+            x2 = null;
+            Console.WriteLine(x2 + " - nullable неявное преобразование к null");
+
+            ////////// Задание 6 - пример работы с nullable ///////////
+            
+            var hello = 2;
+            Console.WriteLine(hello);
+            //hello = "Привет"; - исключение
 
         }
     }

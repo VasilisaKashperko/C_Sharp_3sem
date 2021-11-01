@@ -1,0 +1,13 @@
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.csprojAssemblyReference.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfoInputs.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfo.cs
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.csproj.CoreCompileInputs.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.exe
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.deps.json
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.json
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.dev.json
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.dll
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\bin\Debug\netcoreapp3.1\Lab3.pdb
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.dll
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.pdb
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 3\Лабораторная 3\Лабораторная 3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache
