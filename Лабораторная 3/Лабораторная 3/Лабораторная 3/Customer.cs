@@ -20,7 +20,7 @@ namespace Lab3
 
         private static int count; //Ключевое слово static - объявление константы или типа неявно является членом static. На член static невозможно ссылаться через экземпляр, а можно только через имя типа. 
 
-        private readonly int id;
+        private readonly Guid id;
         private string surname;
         private string name;
         private string patronymic;
@@ -30,7 +30,7 @@ namespace Lab3
 
         // Свойства
 
-        public int Id { get => id; }
+        public Guid Id { get => id; }
         public string Surname { get => surname; set { surname = value; } }
         public string Name { get => name; set { name = value; } }
         public string Patronymic { get => patronymic; set { patronymic = value; } }
@@ -40,7 +40,7 @@ namespace Lab3
             get { return numOfCard; }
             set
             {
-                if (value > 0000000000000001 && value <= 9999999999999999 && id>=9999)
+                if (value > 0000000000000001 && value <= 9999999999999999)
                     numOfCard = value;
                 else
                     Console.WriteLine("Неверный номер карты!");
@@ -50,7 +50,7 @@ namespace Lab3
 
         //Конструкторы
         // с параметрами
-        public Customer(int id, string surname, string name, string patronymic, string address, ulong numOfCard, ulong balance)
+        public Customer(Guid id, string surname, string name, string patronymic, string address, ulong numOfCard, ulong balance)
         {
             if (numOfCard > 0000000000000001 && numOfCard <= 9999999999999999)
             {
@@ -79,7 +79,7 @@ namespace Lab3
         }
 
         // с параметрами по умолчанию
-        public Customer(int id, string patronymic, ulong numOfCard, ulong balance, string surname = "Мышович", string name = "Игорь")
+        public Customer(Guid id, string patronymic, ulong numOfCard, ulong balance, string surname = "Мышович", string name = "Игорь")
         {
             this.id = id;
             this.surname = surname;
@@ -96,7 +96,7 @@ namespace Lab3
         //}
 
         // закрытый
-        private Customer(int id, string surname) 
+        private Customer(Guid id, string surname) 
         {
             this.id = id;
             this.surname = surname;
@@ -105,7 +105,7 @@ namespace Lab3
 
         public override string ToString() // переопределение метода ToString
         {
-            return  $"ID: {this.GetHashCode()}\n" +
+            return  $"ID: {this.id}\n" +
                     $"Фамилия: {this.surname}\n" +
                     $"Имя: {this.name}\n" +
                     $"Отчество: {this.patronymic}\n" +
