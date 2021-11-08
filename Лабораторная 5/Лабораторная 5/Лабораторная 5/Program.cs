@@ -14,19 +14,19 @@ namespace Лабораторная_5
     {
         static void Main(string[] args)
         {
-            Bush myBush = new Bush("Шиповник", "Равнина");
+            Bush myBush = new Bush("Кустик", "Лес");
 
-            Flower myFlower = new Flower("Тюльпан", "Лес", "Желтый", 6);
+            Flower myFlower = new Flower("Тюльпан", "Поле", "Желтый", 6);
 
-            Rose myRose = new Rose("Роза голандская", "Равнина", "Красный", 5, 2);
+            Rose myRose = new Rose("Роза", "Поле", "Красный", 5, 2);
 
-            Glasiolus myGlad = new Glasiolus("Гладиолус обычкновенный", "Лес", "Белый", 3, 4);
+            Glasiolus myGlad = new Glasiolus("Гладиолус", "Лес", "Белый", 3, 4);
 
-            Cactus myCactus = new Cactus("Кактус великий", "Пустыня", "Салатовый", 3);
+            Cactus myCactus = new Cactus("Кактус", "Пустыня", "Зеленый", 3);
 
             Paper myPaper = new Paper("Розовый");
 
-            Bouquet myBouquet = new Bouquet("Прелесть", myPaper, myRose, myGlad, myCactus);
+            Bouquet myBouquet = new Bouquet("Дар весны", myPaper, myRose, myGlad, myCactus);
 
             Console.WriteLine($"{myBush} \n {myFlower} \n {myRose} \n {myGlad} \n {myCactus} \n {myPaper} \n {myBouquet}");
 
