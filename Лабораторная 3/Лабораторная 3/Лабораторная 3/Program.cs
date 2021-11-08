@@ -45,6 +45,8 @@ namespace Lab3
                     Console.WriteLine(customer.ToString());
                 }
 
+                Console.ReadLine();
+
                 Console.WriteLine("\t\tСписок клиентов, у которых номер кредитной карточки");
                 Console.WriteLine("\t\t\tнаходится в заданном интервале:\n");
 
@@ -55,6 +57,14 @@ namespace Lab3
                         customer.PrintIt();
                     }
                 }
+
+                Console.ReadLine();
+
+                // Анонимный тип
+                //Анонимные типы позволяют создать объект с некоторым набором свойств без определения класса.
+                var anonimuscustomer = new { surname = "BSTU", name = "Kirov", balance = 1033 };
+                Console.WriteLine(anonimuscustomer.ToString());
+                Console.WriteLine(anonimuscustomer.GetType());
 
             }
             catch (Exception excpt)

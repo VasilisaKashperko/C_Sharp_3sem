@@ -6,5 +6,19 @@ namespace Лабораторная_5
 {
     class Cactus : Flower
     {
+        public bool HasSingleFlower
+        {
+            get; set;
+        }
+
+        public Cactus(string name, string growLocation, string color, int diameter) : base(name, growLocation, color, diameter)
+        {
+            HasSingleFlower = true;
+        }
+
+        public override string ToString()
+        {
+            return $"{this.GetType()} {Name} {LifeForm} {GrowLocation} {Color} {Diameter} {HasSingleFlower}";
+        }
     }
 }
