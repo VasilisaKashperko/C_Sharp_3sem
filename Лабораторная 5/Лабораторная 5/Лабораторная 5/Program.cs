@@ -1,5 +1,13 @@
 ﻿using System;
 
+// 1 - Flower
+// 2 - Plant, Bush
+// 3 - Paper
+// 4 - Bush (интерфейс - Bouquet, абстрактный класс - Plant)
+// 5 - Program (as, is)
+// 6 - Во всех
+// 7 - Program
+
 namespace Лабораторная_5
 {
     class Printer
@@ -14,7 +22,7 @@ namespace Лабораторная_5
     {
         static void Main(string[] args)
         {
-            Bush myBush = new Bush("Кустик", "Лес");
+            Bush myBush = new Bush("Шиповник", "Лес");
 
             Flower myFlower = new Flower("Тюльпан", "Поле", "Желтый", 6);
 
@@ -30,7 +38,7 @@ namespace Лабораторная_5
 
             Console.WriteLine($"{myBush} \n {myFlower} \n {myRose} \n {myGlad} \n {myCactus} \n {myPaper} \n {myBouquet}");
 
-            Plant myPlant = new Bush("Малина", "Лес"); // объект Plant создать нельзя, может хранить объекты производных классов
+            Plant myPlant = new Bush("Малина", "Лес"); // объект Plant создать нельзя, можно хранить объекты производных классов
 
             //Преобразование Plant в Bush
             Console.WriteLine(myBush.Name);
@@ -45,7 +53,7 @@ namespace Лабораторная_5
                 Console.WriteLine(myBush.Name + " " + myBush.GrowLocation);
             }
 
-            //Преобразование Roze в Flower
+            //Преобразование Rose в Flower
             Console.WriteLine(myFlower.Name);
             if (myRose is Flower)
             {
@@ -59,6 +67,7 @@ namespace Лабораторная_5
 
             //Ссылка на Bush типа IRemove
             IRemove theBush = new Bush("Смородина", "Лес");
+
             //Вызовется метод интерфейса т. к. ссылка типа IRemove
             theBush.Recycle();
 
