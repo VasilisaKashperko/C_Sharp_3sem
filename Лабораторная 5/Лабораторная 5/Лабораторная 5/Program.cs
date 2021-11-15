@@ -30,7 +30,7 @@ namespace Лабораторная_5
 
             Glasiolus myGlad = new Glasiolus("Гладиолус", "Лес", "Белый", 3, 4);
 
-            Cactus myCactus = new Cactus("Кактус", "Пустыня", "Зеленый", 3);
+            Cactus myCactus = new Cactus("Алоэ", "Пустыня", "Зеленый", 3);
 
             Paper myPaper = new Paper("Розовый");
 
