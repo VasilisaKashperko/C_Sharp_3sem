@@ -39,7 +39,7 @@ namespace Лабораторная_6
 
         public override string ToString()
         {
-            return $"{this.GetType()} {Name} {LifeForm} {GrowLocation} {Color} {Diameter}";
+            return $"{Name} {LifeForm} {GrowLocation} {Color} {Diameter}";
         }
     }
 }

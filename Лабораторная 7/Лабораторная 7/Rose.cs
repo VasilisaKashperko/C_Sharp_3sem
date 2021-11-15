@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Лабораторная_6
+namespace Лабораторная_7
 {
     class Rose : Flower
     {
@@ -16,7 +16,7 @@ namespace Лабораторная_6
             get; set;
         }
 
-        public Rose(string name, string growLocation, string color, int diameter, int thornLength) : base(name, growLocation, color, diameter)
+        public Rose(string name, string growLocation, string color, int diameter, int thornLength, double cost) : base(name, growLocation, color, diameter, cost)
         {
             ThornLenth = thornLength;
             HasThorns = true;
@@ -24,12 +24,12 @@ namespace Лабораторная_6
 
         public override void Recycle()
         {
-            Console.WriteLine("Пожалуй, розы лучше подарить, чем выбрасывать!");
+            Console.WriteLine("Пожалуй розы лучше подарить, чем выбрасывать!");
         }
 
         public override string ToString()
         {
-            return $" {Name} {GrowLocation} {Color} {Diameter} {HasThorns} {ThornLenth}";
+            return $"{this.GetType()} {Name} {LifeForm} {GrowLocation} {Color} {Diameter} {HasThorns} {ThornLenth} \t Цена: {Cost}";
         }
 
         public override int GetHashCode()
@@ -53,5 +53,6 @@ namespace Лабораторная_6
             }
 
         }
+
     }
 }
