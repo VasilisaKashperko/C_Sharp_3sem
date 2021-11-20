@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj": {}
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj": {}
   },
   "projects": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj": {
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj",
+        "projectUniqueName": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj",
         "projectName": "Lab8",
-        "projectPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj",
+        "projectPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\Lab8.csproj",
         "packagesPath": "C:\\Users\\Vasilisa\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\obj\\",
+        "outputPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 8\\Lab8\\Lab8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasilisa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace Lab8
 {
+    [Serializable]
     public partial class GetSet<T> : ICollectionType<T> where T : new()
     {
-        private List<T> storage;
+        private readonly List<T> storage;
 
         public List<T> Storage
         {
@@ -68,5 +70,34 @@ namespace Lab8
             Console.WriteLine();
         }
 
+        //////////////////////////////
+
+        // файл сохраняется в bin\Debug\netcoreapp*
+        public void Save(string CurrentFile)
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            using (FileStream fs = new FileStream(CurrentFile, FileMode.OpenOrCreate))
+            {
+                bf.Serialize(fs, Storage);
+                fs.Close();
+            }
+        }
+
+        // файл выгружается из bin\Debug\netcoreapp*
+        public void Upload(string CurrentFile)
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            using (FileStream fs = new FileStream(CurrentFile, FileMode.OpenOrCreate))
+            {
+                List<T> deser = (List<T>)bf.Deserialize(fs);
+                foreach (T p in deser)
+                {
+                    if (p == null)
+                        continue;
+                    this.Add(p);
+                }
+                fs.Close();
+            }
+        }
     }
 }
