@@ -1,0 +1,13 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.genruntimeconfig.cache
