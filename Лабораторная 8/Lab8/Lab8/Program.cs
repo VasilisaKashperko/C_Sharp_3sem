@@ -8,7 +8,7 @@ namespace Lab8
         {
             try
             {
-                GetSet<int> set1 = new GetSet<int>();
+                GetSet<object> set1 = new GetSet<object>();
                 set1.Add(3);
                 set1.Add(6);
                 set1.Add(8);
@@ -33,7 +33,7 @@ namespace Lab8
                 Console.ReadKey();
 
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - -");
-                                
+
                 GetSet<Object> set2 = new GetSet<Object>();
                 set2.Add("Never");
                 set2.Add("Give");
@@ -65,21 +65,23 @@ namespace Lab8
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - -");
 
                 Console.WriteLine("Сохраняю в файл...");
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(2000);
                 set2.Save("saving.txt");
                 Console.WriteLine("Множество сохранено в файл!");
 
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(2000);
                 Console.WriteLine("Создаю новое множество из записанного файла...");
                 GetSet<Object> set3 = new GetSet<Object>();
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(2000);
                 Console.WriteLine("Готово! Можно посмотреть:");
+                System.Threading.Thread.Sleep(2000);
 
                 set3.Upload("saving.txt");
                 set3.Show();
             }
             finally
             {
+                System.Threading.Thread.Sleep(1000);
                 Console.WriteLine("\nПрограмма завершена!\n");
             }
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+//Сериализация представляет процесс преобразования какого-либо объекта в поток байтов.
 
 namespace Lab8
 {
@@ -72,8 +73,34 @@ namespace Lab8
 
         //////////////////////////////
 
-        // файл сохраняется в bin\Debug\netcoreapp*
-        public void Save(string CurrentFile)
+        public class Plant
+        {
+
+            private string Name;
+            public string LifeForm { get; set; }
+
+            public string this[string str]
+            {
+                set
+                {
+                    Name = value;
+                }
+                get
+                { 
+                    return Name;
+                }
+            }
+
+            public override string ToString()
+            {
+                return $"{this.GetType()} {Name} {LifeForm}";
+            }
+        }
+
+            //////////////////////////////
+
+            // файл сохраняется в bin\Debug\netcoreapp*
+            public void Save(string CurrentFile)
         {
             BinaryFormatter bf = new BinaryFormatter();
             using (FileStream fs = new FileStream(CurrentFile, FileMode.OpenOrCreate))
