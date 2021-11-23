@@ -1,0 +1,13 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\bin\Debug\netcoreapp3.1\Control.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Контрольная работа 1\Control\Control\obj\Debug\netcoreapp3.1\Control.genruntimeconfig.cache
