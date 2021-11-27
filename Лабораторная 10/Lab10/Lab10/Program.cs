@@ -11,7 +11,12 @@ namespace Lab10
             Worker theThird = new Worker("Арина Николаевна","Лаборант",1500);
             Worker theFourth = new Worker("Надежда Александровна","Лектор",1900);
 
-            theFirst.GetEnumerator();
+            Console.WriteLine(theFirst.ToString());
+            Console.WriteLine(theSecond.ToString());
+            Console.WriteLine(theThird.ToString());
+            Console.WriteLine(theFourth.ToString());
+            
+            //theFirst.GetEnumerator();
         }
     }
 }

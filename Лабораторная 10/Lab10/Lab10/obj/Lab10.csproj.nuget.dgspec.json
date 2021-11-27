@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj": {}
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj": {}
   },
   "projects": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj": {
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj",
+        "projectUniqueName": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj",
         "projectName": "Lab10",
-        "projectPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj",
+        "projectPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\Lab10.csproj",
         "packagesPath": "C:\\Users\\Vasilisa\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\obj\\",
+        "outputPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 10\\Lab10\\Lab10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasilisa\\AppData\\Roaming\\NuGet\\NuGet.Config",

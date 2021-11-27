@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Text;
 
 namespace Lab10
 {
-    public class Worker : IEnumerable<object>
+    public class Worker// : IEnumerable//, IEnumerator<object>
     {
         public string Name { get; private set; }
         public string Post { get; private set; }
@@ -18,14 +20,22 @@ namespace Lab10
             this.Pay = pay;
         }
 
-        public IEnumerator<object> GetEnumerator()
+        public override String ToString()
         {
-            throw new NotImplementedException();
+            return $"Имя работника: {Name}\n" +
+                $"Должность работника: {Post}\n" +
+                $"Зарплата работника: {Pay}\n\n";
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+        // Реализуем интерфейс IEnumerable
+        //public IEnumerator GetEnumerator()
+        //{
+        //    return this;
+        //}
+
+        //IEnumerator IEnumerable.GetEnumerator()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
