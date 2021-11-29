@@ -23,6 +23,8 @@ namespace Lab9
             return $"Текущая зарплата {Position} составляет {Pay} рублей";
         }
 
+        // Invoke принимает делегат и выполняет его в том потоке,
+        // в котором был создан элемент управления, у которого вызывается Invoke. 
         public void ToPromote(int good)
         {
             Pay += good;

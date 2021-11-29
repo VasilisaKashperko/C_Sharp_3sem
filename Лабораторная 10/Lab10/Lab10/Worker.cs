@@ -7,35 +7,79 @@ using System.Text;
 
 namespace Lab10
 {
-    public class Worker// : IEnumerable//, IEnumerator<object>
+    public class Worker: IEnumerable<Worker>
     {
-        public string Name { get; private set; }
-        public string Post { get; private set; }
-        public int Pay { get; private set; }
+        private Guid id;
+        public Guid Id { get => id; }
+        public string Name { get; set; }
+        public string Post { get; set; }
+        public int Pay { get; set; }
+        public static int Ip = 0;
+        public int ip = 0;
 
-        public Worker(string name, string post, int pay)
+        public Worker(Guid id, string name, string post, int pay)
         {
-            this.Name = name;
-            this.Post = post;
-            this.Pay = pay;
+            this.id = id;
+            Name = name;
+            Post = post;
+            Pay = pay;
+            Ip++;
+            ip = Ip;
         }
 
-        public override String ToString()
+        public Worker()
         {
-            return $"Имя работника: {Name}\n" +
-                $"Должность работника: {Post}\n" +
-                $"Зарплата работника: {Pay}\n\n";
+            Name = "Неизвестно";
+            Post = "неизвестно";
+            Pay = 0;
+            Ip++;
+            ip = Ip;
         }
 
-        // Реализуем интерфейс IEnumerable
-        //public IEnumerator GetEnumerator()
-        //{
-        //    return this;
-        //}
+        Hashtable hashList = new Hashtable();
 
-        //IEnumerator IEnumerable.GetEnumerator()
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void GetHash()
+        {
+            Console.WriteLine(GetHashCode());
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Post}" +
+                $" с зарплатой {Pay}" +
+                $"\nId работника: {Id}\n\n";
+        }
+
+        public void AddElem(Worker el)
+        {
+            Ip++;
+            hashList.Add(Ip, el);
+        }
+        public void DelElem(int key)
+        {
+            hashList.Remove(key);
+        }
+        public void Find(int key)
+        {
+            ICollection keys = hashList.Keys;
+            foreach (int s in keys)
+            {
+                if (s == key)
+                {
+                    Console.WriteLine($"Был найден ключ: {s} со значением {hashList[s]}");
+                }
+                else
+                {
+                    Console.WriteLine("Не найден ключ!");
+                }
+            }
+        }
+        public void Print()
+        {
+            ICollection keys = hashList.Keys;
+
+            foreach (int s in keys)
+                Console.WriteLine(s + ": " + hashList[s]);
+        }
     }
 }
