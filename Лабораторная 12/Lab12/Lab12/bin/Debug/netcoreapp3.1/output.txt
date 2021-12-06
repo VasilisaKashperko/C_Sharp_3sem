@@ -1,0 +1,42 @@
+Имя сборки, в которой определен класс: Lab12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Класс Worker имеет публичный конструктор 1
+Класс Worker имеет публичный конструктор 2
+
+Извлекает все общедоступные публичные методы класса: 
+ Guid get_Id 
+ String get_Name 
+ Void set_Name 
+ String get_Post 
+ Void set_Post 
+ Int32 get_Pay 
+ Void set_Pay 
+ Void GetHash 
+virtual String ToString 
+virtual Void AddElem 
+virtual Void DelElem 
+virtual Void Find 
+virtual Void Print 
+ Type GetType 
+virtual Boolean Equals 
+virtual Int32 GetHashCode 
+
+Информация о полях:
+System.Int32 ip
+System.Int32 Ip
+
+Свойства класса:
+System.Guid Id
+System.String Name
+System.String Post
+System.Int32 Pay
+
+Все реализованные классом интерфейсы:
+IEnumerable`1
+
+Выводит по имени класса имена методов, которые содержат заданный пользователем тип параметра:
+ Void set_Surname
+ Void set_Name
+ Void set_Patronymic
+ Void set_Address
+ Void Repeat
