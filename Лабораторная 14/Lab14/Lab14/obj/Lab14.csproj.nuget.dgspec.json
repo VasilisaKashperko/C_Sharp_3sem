@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 13\\Lab13\\Lab13\\Lab13.csproj": {}
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\Lab14.csproj": {}
   },
   "projects": {
-    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 13\\Lab13\\Lab13\\Lab13.csproj": {
+    "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\Lab14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 13\\Lab13\\Lab13\\Lab13.csproj",
-        "projectName": "Lab13",
-        "projectPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 13\\Lab13\\Lab13\\Lab13.csproj",
+        "projectUniqueName": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\Lab14.csproj",
+        "projectName": "Lab14",
+        "projectPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\Lab14.csproj",
         "packagesPath": "C:\\Users\\Vasilisa\\.nuget\\packages\\",
-        "outputPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 13\\Lab13\\Lab13\\obj\\",
+        "outputPath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasilisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "SoapFormatter": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

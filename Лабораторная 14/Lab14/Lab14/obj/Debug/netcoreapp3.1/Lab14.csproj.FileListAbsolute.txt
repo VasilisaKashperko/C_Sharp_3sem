@@ -1,0 +1,15 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.deps.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.runtimeconfig.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.runtimeconfig.dev.json
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\Lab14.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.AssemblyInfoInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.AssemblyInfo.cs
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.csproj.CopyComplete
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.dll
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.genruntimeconfig.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\bin\Debug\netcoreapp3.1\SoapFormatter.dll
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 14\Lab14\Lab14\obj\Debug\netcoreapp3.1\Lab14.csproj.CoreCompileInputs.cache

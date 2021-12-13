@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2UJcYSyCsl7LFlzP94c3kS5dQmY4A2EBSi2NQYwHF2c1Pck6+uQZmqEbTjTrGquaqxsssXlmV5dYiBUB7iDqPA==",
+  "success": true,
+  "projectFilePath": "d:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 14\\Lab14\\Lab14\\Lab14.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vasilisa\\.nuget\\packages\\soapformatter\\1.0.11\\soapformatter.1.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

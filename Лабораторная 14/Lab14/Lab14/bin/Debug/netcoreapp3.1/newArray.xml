@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <LifeLength>100</LifeLength>
+    <Name>Авель</Name>
+    <Sex>Мужчина</Sex>
+    <Age>18</Age>
+    <IQ>121</IQ>
+  </Customer>
+  <Customer>
+    <LifeLength>100</LifeLength>
+    <Name>Аклима</Name>
+    <Sex>Женщина</Sex>
+    <Age>15</Age>
+    <IQ>123</IQ>
+  </Customer>
+  <Customer>
+    <LifeLength>100</LifeLength>
+    <Name>Каиф</Name>
+    <Sex>Мужчина</Sex>
+    <Age>15</Age>
+    <IQ>180</IQ>
+  </Customer>
+  <Human>
+    <LifeLength>100</LifeLength>
+    <Name>Аменадиил</Name>
+    <Sex>Мужчина</Sex>
+    <Age>20</Age>
+    <IQ>200</IQ>
+    <Permission>Yes</Permission>
+  </Human>
+</ArrayOfCustomer>
