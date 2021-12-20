@@ -1,0 +1,7 @@
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\bin\Debug\Lab16.exe.config
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\bin\Debug\Lab16.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\bin\Debug\Lab16.pdb
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\obj\Debug\Lab16.csprojAssemblyReference.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\obj\Debug\Lab16.csproj.CoreCompileInputs.cache
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\obj\Debug\Lab16.exe
+D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab16\Lab16\obj\Debug\Lab16.pdb
