@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Reflection;
 using System.Threading;
 using System.IO;
 using static System.Console;
@@ -34,7 +33,7 @@ namespace Lab15
                     if (file.BaseStream == null)
                         file = new StreamWriter("result.txt", true);
                     file.WriteLine(i);
-                    WriteLine("Odd number " + i);
+                    WriteLine("Нечетное число " + i);
                 }
             }
             if (file.BaseStream != null)
@@ -51,7 +50,7 @@ namespace Lab15
                         if (file.BaseStream == null)
                             file = new StreamWriter("result.txt", true);
                         file.WriteLine(i);
-                        WriteLine("Even number " + i);
+                        WriteLine("Четное число " + i);
                     }
                     if (file.BaseStream != null)
                         file.Close();
@@ -73,7 +72,7 @@ namespace Lab15
                         if (file.BaseStream == null)
                             file = new StreamWriter("result.txt", true);
                         file.WriteLine(i);
-                        WriteLine("MonitorOdd " + i);
+                        WriteLine("Нечетное " + i);
                         Monitor.Pulse(this);
                         Monitor.Wait(this);
                     }
@@ -96,7 +95,7 @@ namespace Lab15
                         if (file.BaseStream == null)
                             file = new StreamWriter("result.txt", true);
                         file.WriteLine(i);
-                        WriteLine("MonitorEven " + i);
+                        WriteLine("Четное " + i);
                         Monitor.Pulse(this);
                         Monitor.Wait(this);
                     }
@@ -156,7 +155,7 @@ namespace Lab15
                 {
                     WriteLine("Id процесса: " + p.Id.ToString());
                     WriteLine("Имя процесса: " + p.ProcessName);
-                    WriteLine("Приоритет процесса: " + p.BasePriority.ToString()+" "+ p.PriorityClass.ToString());
+                    WriteLine("Приоритет процесса: " + p.BasePriority.ToString() + " " + p.PriorityClass.ToString());
                     WriteLine("Время запуска: " + p.StartTime.ToString());
                     WriteLine("Время использования процессором: " + p.TotalProcessorTime.ToString());
                     if (p.StartTime.ToString() != null)
@@ -170,6 +169,7 @@ namespace Lab15
             }
             #endregion
 
+            /*
             #region [ The second task ]
             AppDomain domain = AppDomain.CurrentDomain;
 
@@ -190,6 +190,7 @@ namespace Lab15
             AppDomain.Unload(myNewDomain);
             WriteLine(buf2.ToString());
             #endregion
+            */
 
             #region [The third task]
             int n;
@@ -242,8 +243,7 @@ namespace Lab15
             #region [The fifth task]
             TimerCallback a = new TimerCallback(numbers.ForTimer);
             Timer timer = new Timer(a, 1, 10000, 200);
-            WriteLine("sd");
-            ReadKey();
+            WriteLine("TIMER!");
             #endregion
         }
     }

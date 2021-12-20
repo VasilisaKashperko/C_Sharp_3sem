@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 15\\Lab15\\Lab15\\Lab15.csproj": {}
+    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 16\\Lab16\\Lab16\\Lab16.csproj": {}
   },
   "projects": {
-    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 15\\Lab15\\Lab15\\Lab15.csproj": {
+    "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 16\\Lab16\\Lab16\\Lab16.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 15\\Lab15\\Lab15\\Lab15.csproj",
-        "projectName": "Lab15",
-        "projectPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 15\\Lab15\\Lab15\\Lab15.csproj",
+        "projectUniqueName": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 16\\Lab16\\Lab16\\Lab16.csproj",
+        "projectName": "Lab16",
+        "projectPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 16\\Lab16\\Lab16\\Lab16.csproj",
         "packagesPath": "C:\\Users\\Vasilisa\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 15\\Lab15\\Lab15\\obj\\",
+        "outputPath": "D:\\Учеба в БГТУ\\Пацей Н.В. ООП\\Лабораторная 16\\Lab16\\Lab16\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vasilisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
