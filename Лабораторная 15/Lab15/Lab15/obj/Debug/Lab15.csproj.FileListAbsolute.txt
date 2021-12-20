@@ -5,3 +5,10 @@ D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\L
 D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab15\Lab15\obj\Debug\Lab15.csproj.CoreCompileInputs.cache
 D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab15\Lab15\obj\Debug\Lab15.exe
 D:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 16\Lab15\Lab15\obj\Debug\Lab15.pdb
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\bin\Debug\Lab15.exe.config
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\bin\Debug\Lab15.exe
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\bin\Debug\Lab15.pdb
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\obj\Debug\Lab15.csprojAssemblyReference.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\obj\Debug\Lab15.csproj.CoreCompileInputs.cache
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\obj\Debug\Lab15.exe
+d:\Учеба в БГТУ\Пацей Н.В. ООП\Лабораторная 15\Lab15\Lab15\obj\Debug\Lab15.pdb

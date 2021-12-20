@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Diagnostics;
 using System.Threading;
 using System.IO;
@@ -7,21 +8,21 @@ using static System.Console;
 namespace Lab15
 {
     #region [ The fourth task ]
-    public class Numbers
+    public class MyNumbers
     {
         private int n;
         public StreamWriter file = new StreamWriter("result.txt", false);
-        public Numbers(int _n)
+        public MyNumbers(int _n)
         {
             n = _n;
         }
-        ~Numbers()
+        ~MyNumbers()
         {
             try { file.Close(); }
             catch { };
         }
 
-        public void Odd()  // нечетные
+        public void OddNumbers()  // нечетные
         {
             if (file.BaseStream == null)
                 file = new StreamWriter("result.txt", true);
@@ -39,9 +40,11 @@ namespace Lab15
             if (file.BaseStream != null)
                 file.Close();
         }
-        public void Even() // четные
+        public void EvenNumbers() // четные
         {
-            lock (this)
+            lock (this) 
+                // Как только поток войдет в контекст lock, маркер блокировки (в данном случае — текущий объект)
+                // станет недоступным другим потокам до тех пор, пока блокировка не будет снята по выходе из контекста lock.
             {
                 for (int i = 1; i < n; i++)
                 {
@@ -57,9 +60,10 @@ namespace Lab15
                 }
             }
         }
-        public void Odd1()
+        public void OddNumbers1()
         {
             Monitor.Enter(this);
+            // Наряду с оператором lock для синхронизации потоков мы можем использовать мониторы
             {
                 if (file.BaseStream == null)
                     file = new StreamWriter("result.txt", true);
@@ -82,7 +86,7 @@ namespace Lab15
                 Monitor.Exit(this);
             }
         }
-        public void Even1()
+        public void EvenNumbers1()
         {
             Monitor.Enter(this);
             {
@@ -107,9 +111,8 @@ namespace Lab15
         }
         public void ForTimer(object obj)
         {
-            for (int i = 1; i < n; i++)
-                Write('.');
-            WriteLine();
+            Console.Clear();
+            Console.WriteLine("\u2665 Текущее время:  " + DateTime.Now.ToLongTimeString() + " \u2665");
         }
     }
     #endregion
@@ -169,7 +172,6 @@ namespace Lab15
             }
             #endregion
 
-            /*
             #region [ The second task ]
             AppDomain domain = AppDomain.CurrentDomain;
 
@@ -190,7 +192,6 @@ namespace Lab15
             AppDomain.Unload(myNewDomain);
             WriteLine(buf2.ToString());
             #endregion
-            */
 
             #region [The third task]
             int n;
@@ -206,17 +207,17 @@ namespace Lab15
             }
 
             Thread myThread = new Thread(new ParameterizedThreadStart(begin));
-            myThread.Name = "\"Vasilisa\'s thread\"";
+            myThread.Name = "Абсолютно новый поток";
             myThread.Priority = ThreadPriority.Highest;
             myThread.Start(n);
             #endregion
 
             #region [The fourth task]
             Thread thread1, thread2;
-            Numbers numbers = new Numbers(n);
+            MyNumbers numbers = new MyNumbers(n);
 
-            thread1 = new Thread(numbers.Odd);
-            thread2 = new Thread(numbers.Even);
+            thread1 = new Thread(numbers.OddNumbers);
+            thread2 = new Thread(numbers.EvenNumbers);
 
             thread1.IsBackground = true;
             thread2.IsBackground = true;
@@ -226,10 +227,10 @@ namespace Lab15
             thread1.Start();
             thread2.Start();
 
-            Thread.Sleep(3000);
+            Thread.Sleep(900);
 
-            Thread thread3 = new Thread(numbers.Odd1);
-            Thread thread4 = new Thread(numbers.Even1);
+            Thread thread3 = new Thread(numbers.OddNumbers1);
+            Thread thread4 = new Thread(numbers.EvenNumbers1);
 
             thread3.IsBackground = true;
             thread4.IsBackground = true;
@@ -241,9 +242,16 @@ namespace Lab15
             #endregion
 
             #region [The fifth task]
+            Thread.Sleep(600);
+            WriteLine("\n\t\tТАЙМЕР! СЕЙЧАС ВЫ ЗАБУДЕТЕ ВСЁ, ЧТО БЫЛО РАНЬШЕ...");
+            Thread.Sleep(5000);
+
+            // Делегат для типа Timer
             TimerCallback a = new TimerCallback(numbers.ForTimer);
-            Timer timer = new Timer(a, 1, 10000, 200);
-            WriteLine("TIMER!");
+            Timer timer = new Timer(a, null, 0, 1000);
+
+            WriteLine("Нажмите чтоб выйти");
+            ReadLine();
             #endregion
         }
     }
