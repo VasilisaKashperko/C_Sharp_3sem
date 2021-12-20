@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 using System.Collections.Concurrent;
 
@@ -15,7 +12,7 @@ namespace Lab16
         {
             Random r = new Random();
             int x;
-            List<string> products = new List<string>() { "Ёлка", "Гирлянда", "Шоколадка", "Шампанское", "Мандарины" };
+            List<string> products = new List<string>() {"Ёлка", "Гирлянда", "Шоколадка", "Шампанское", "Мандарины" };
             for (int i = 0; i < 5; i++)
             {
                 x = r.Next(0, products.Count - 1);

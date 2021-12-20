@@ -2,6 +2,11 @@
 using System.Threading.Tasks;
 using System.Threading;
 
+// Tpl – библиотека параллельных задач.
+// Task –данный класс описывает отдельную задачу, которая запускается асинхронно
+//в одном из потоков пула потоков.
+
+
 namespace Lab16
 {
     partial class Program
