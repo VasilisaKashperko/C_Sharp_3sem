@@ -1,3 +1,1 @@
-***Variant 4***
-
-***1 semester***
+***The 3rd semester***. ***Variant 4***. 
